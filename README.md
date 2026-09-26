@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ELECTROMART
 
 India-First Electronics Component Sourcing Marketplace
@@ -52,3 +53,7 @@ NODE_ENV=development
 
 ## Current Implementation Status
 Phase 1: Foundation and architectural boundaries established. No business features implemented yet.
+=======
+# E-commerce_sem
+This is sem project
+>>>>>>> 21914605c75a713531410572dbb2b4620a332e0a
