@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+/* Hide scrollbar for all browsers while maintaining full scrolling functionality */
+html, body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Edge, Opera */
+  width: 0;
+  height: 0;
+}
+
 @layer base {
   body {
     background-color: #f8fafc;

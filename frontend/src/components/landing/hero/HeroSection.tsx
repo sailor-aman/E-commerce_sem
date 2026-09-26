@@ -17,7 +17,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onSearchSubmit }) => {
 
   return (
     <section className="relative bg-[#070D1E] text-white pt-14 pb-20 overflow-hidden border-b border-slate-800">
-      
+
       {/* Clear, High-Contrast PCB Microchip Background Image with Smooth Gradient Mask Fading */}
       <div className="absolute top-0 right-0 w-full lg:w-3/5 h-full pointer-events-none overflow-hidden select-none">
         <img
@@ -25,12 +25,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onSearchSubmit }) => {
           alt="PCB Circuit Microchip Background"
           className="w-full h-full object-cover object-right opacity-70 contrast-125 saturate-125 scale-105 transition-opacity"
         />
-        
+
         {/* Multi-Directional Gradient Fades (Left, Top, Bottom) */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#070D1E] via-[#070D1E]/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#070D1E] via-transparent to-[#070D1E]/70" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#070D1E]/80 via-transparent to-[#070D1E]" />
-        
+
         {/* Vibrant Blue Glow Ambient Auras */}
         <div className="absolute top-1/4 right-1/4 w-[450px] h-[450px] bg-blue-600/30 rounded-full blur-[100px]" />
         <div className="absolute bottom-10 right-10 w-[300px] h-[300px] bg-indigo-500/20 rounded-full blur-[90px]" />
@@ -38,11 +38,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onSearchSubmit }) => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl space-y-7 text-left">
-          
+
           {/* Eyebrow Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/15 border border-blue-400/30 text-blue-400 text-xs font-bold uppercase tracking-wider shadow-sm">
             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-            INDIA-FIRST ELECTRONICS COMPONENT SOURCING
+            ELECTRONICS COMPONENT SOURCING
           </div>
 
           {/* Main Title */}
@@ -60,7 +60,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onSearchSubmit }) => {
 
           {/* Large Sourcing Search Box */}
           <div className="pt-2 max-w-2xl">
-            <form 
+            <form
               onSubmit={handleSubmit}
               className="bg-white p-2 rounded-2xl shadow-2xl flex flex-col sm:flex-row items-center gap-2 border-2 border-slate-200 focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/20 transition-all"
             >
