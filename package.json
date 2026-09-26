@@ -1,0 +1,26 @@
+{
+  "name": "electromart",
+  "version": "1.0.0",
+  "description": "India-First Electronics Component Sourcing Marketplace",
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "npx concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "test:frontend": "cd frontend && npm run test",
+    "test:backend": "cd backend && npm run test",
+    "test": "npm run test:frontend && npm run test:backend",
+    "lint:frontend": "cd frontend && npm run lint",
+    "lint:backend": "cd backend && npm run lint",
+    "lint": "npm run lint:frontend && npm run lint:backend",
+    "typecheck:frontend": "cd frontend && npx tsc --noEmit",
+    "typecheck:backend": "cd backend && npx tsc --noEmit",
+    "typecheck": "npm run typecheck:frontend && npm run typecheck:backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

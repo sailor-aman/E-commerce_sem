@@ -1,0 +1,10 @@
+export { HeroSection } from './hero/HeroSection';
+export { PopularCategoriesSection } from './categories/PopularCategoriesSection';
+export { FeaturedComponentsSection } from './featured/FeaturedComponentsSection';
+export { ApplicationExplorerSection } from './applications/ApplicationExplorerSection';
+export { HowItWorksSection } from './workflow/HowItWorksSection';
+export { ValuePropositionSection } from './value-props/ValuePropositionSection';
+export { SupplierCTASection } from './supplier-cta/SupplierCTASection';
+export { MetricsBannerSection } from './metrics/MetricsBannerSection';
+export { FaqSection } from './faq/FaqSection';
+export { BottomCTASection } from './cta/BottomCTASection';
